@@ -1,0 +1,59 @@
+{
+  "reports": [
+    {
+      "id": "a",
+      "ended": true,
+      "duration": 8,
+      "width": 1280,
+      "total": 480,
+      "dropped": 0,
+      "error": null,
+      "muted": true
+    },
+    {
+      "id": "b",
+      "ended": true,
+      "duration": 8,
+      "width": 1280,
+      "total": 480,
+      "dropped": 0,
+      "error": null,
+      "muted": true
+    }
+  ],
+  "candidates": [
+    {
+      "duration": 0.102925,
+      "error": null
+    },
+    {
+      "duration": 0.292744,
+      "error": null
+    },
+    {
+      "duration": 0.112721,
+      "error": null
+    },
+    {
+      "duration": 0.281338,
+      "error": null
+    },
+    {
+      "duration": 0.15068,
+      "error": null
+    },
+    {
+      "duration": 0.105329,
+      "error": null
+    },
+    {
+      "duration": 1.002925,
+      "error": null
+    },
+    {
+      "duration": 0.620567,
+      "error": null
+    }
+  ],
+  "listening": "not_verified"
+}

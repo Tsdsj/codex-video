@@ -1,0 +1,26 @@
+[
+  {
+    "id": "soft-tap",
+    "start_seconds": 0.0
+  },
+  {
+    "id": "felt-click",
+    "start_seconds": 0.63
+  },
+  {
+    "id": "toggle-on",
+    "start_seconds": 1.3
+  },
+  {
+    "id": "toggle-off",
+    "start_seconds": 2.07
+  },
+  {
+    "id": "select-double",
+    "start_seconds": 2.84
+  },
+  {
+    "id": "quiet-dismiss",
+    "start_seconds": 3.67
+  }
+]

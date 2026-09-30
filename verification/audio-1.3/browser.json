@@ -1,0 +1,119 @@
+{
+  "audio_count": 28,
+  "exclusive_playback": true,
+  "metadata": [
+    {
+      "src": "soft-ui-reel.wav",
+      "duration": 4.47
+    },
+    {
+      "src": "soft-ui/soft-tap.wav",
+      "duration": 0.18
+    },
+    {
+      "src": "soft-ui/felt-click.wav",
+      "duration": 0.22
+    },
+    {
+      "src": "soft-ui/toggle-on.wav",
+      "duration": 0.32
+    },
+    {
+      "src": "soft-ui/toggle-off.wav",
+      "duration": 0.32
+    },
+    {
+      "src": "soft-ui/select-double.wav",
+      "duration": 0.38
+    },
+    {
+      "src": "soft-ui/quiet-dismiss.wav",
+      "duration": 0.35
+    },
+    {
+      "src": "air-motion-reel.wav",
+      "duration": 8.1
+    },
+    {
+      "src": "air-motion/air-pass.wav",
+      "duration": 0.65
+    },
+    {
+      "src": "air-motion/silk-swipe.wav",
+      "duration": 0.95
+    },
+    {
+      "src": "air-motion/quick-cut.wav",
+      "duration": 0.25
+    },
+    {
+      "src": "air-motion/rise-soft.wav",
+      "duration": 1.25
+    },
+    {
+      "src": "air-motion/fall-soft.wav",
+      "duration": 1.1
+    },
+    {
+      "src": "air-motion/reverse-bloom.wav",
+      "duration": 1.2
+    },
+    {
+      "src": "tactile-reel.wav",
+      "duration": 7.05
+    },
+    {
+      "src": "tactile/wood-touch.wav",
+      "duration": 0.4
+    },
+    {
+      "src": "tactile/ceramic-touch.wav",
+      "duration": 0.7
+    },
+    {
+      "src": "tactile/glass-tick.wav",
+      "duration": 1.15
+    },
+    {
+      "src": "tactile/metal-soft.wav",
+      "duration": 0.9
+    },
+    {
+      "src": "tactile/paper-settle.wav",
+      "duration": 0.65
+    },
+    {
+      "src": "tactile/cushioned-land.wav",
+      "duration": 0.55
+    },
+    {
+      "src": "resolution-reel.wav",
+      "duration": 9.85
+    },
+    {
+      "src": "resolution/confirm-warm.wav",
+      "duration": 0.9
+    },
+    {
+      "src": "resolution/complete-clear.wav",
+      "duration": 1.25
+    },
+    {
+      "src": "resolution/reveal-spark.wav",
+      "duration": 1.35
+    },
+    {
+      "src": "resolution/resolve-low.wav",
+      "duration": 1.15
+    },
+    {
+      "src": "resolution/soft-attention.wav",
+      "duration": 0.85
+    },
+    {
+      "src": "resolution/brand-signoff.wav",
+      "duration": 1.65
+    }
+  ],
+  "listening": "not_verified"
+}

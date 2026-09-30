@@ -1,0 +1,56 @@
+{
+  "muted": true,
+  "samples": [
+    {
+      "time": 2.955079,
+      "ended": false,
+      "error": null,
+      "readyState": 4,
+      "quality": {
+        "total": 94,
+        "dropped": 0
+      }
+    },
+    {
+      "time": 6.062587,
+      "ended": false,
+      "error": null,
+      "readyState": 4,
+      "quality": {
+        "total": 187,
+        "dropped": 0
+      }
+    },
+    {
+      "time": 9.165872,
+      "ended": false,
+      "error": null,
+      "readyState": 4,
+      "quality": {
+        "total": 280,
+        "dropped": 0
+      }
+    },
+    {
+      "time": 12.2687,
+      "ended": false,
+      "error": null,
+      "readyState": 4,
+      "quality": {
+        "total": 373,
+        "dropped": 0
+      }
+    },
+    {
+      "time": 15,
+      "ended": true,
+      "error": null,
+      "readyState": 4,
+      "quality": {
+        "total": 450,
+        "dropped": 0
+      }
+    }
+  ],
+  "slider": "F263 / 8.767s"
+}

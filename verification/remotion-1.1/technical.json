@@ -1,0 +1,18 @@
+{
+  "decode_exit": 0,
+  "decoded_frames": 480,
+  "same_frame_repeat_identical": true,
+  "black_intervals": [],
+  "streams": [
+    "Duration: 00:00:08.00, start: 0.000000, bitrate: 569 kb/s",
+    "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuvj420p(pc, bt470bg/unknown/unknown, progressive), 1280x720 [SAR 1:1 DAR 16:9], 236 kb/s, 60 fps, 60 tbr, 90k tbn (default)",
+    "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 317 kb/s (default)",
+    "Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))",
+    "Stream #0:1 -> #0:1 (aac (native) -> pcm_s16le (native))",
+    "Stream #0:0(und): Video: wrapped_avframe, yuvj420p(pc, bt470bg/unknown/unknown, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 60 fps, 60 tbn (default)",
+    "Stream #0:1(und): Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s (default)",
+    "[Parsed_astats_0 @ 0x1463051b0] Peak level dB: -23.994042",
+    "[Parsed_astats_0 @ 0x1463051b0] Peak level dB: -23.994042",
+    "[Parsed_astats_0 @ 0x1463051b0] Peak level dB: -23.994042"
+  ]
+}

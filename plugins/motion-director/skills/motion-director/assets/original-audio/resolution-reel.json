@@ -1,0 +1,26 @@
+[
+  {
+    "id": "confirm-warm",
+    "start_seconds": 0.0
+  },
+  {
+    "id": "complete-clear",
+    "start_seconds": 1.35
+  },
+  {
+    "id": "reveal-spark",
+    "start_seconds": 3.05
+  },
+  {
+    "id": "resolve-low",
+    "start_seconds": 4.85
+  },
+  {
+    "id": "soft-attention",
+    "start_seconds": 6.45
+  },
+  {
+    "id": "brand-signoff",
+    "start_seconds": 7.75
+  }
+]

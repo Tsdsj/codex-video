@@ -1,0 +1,21 @@
+import {bundle} from '@remotion/bundler';
+import {selectComposition,renderMedia,renderStill} from '@remotion/renderer';
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {createSound} from './sound.mjs';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const out=path.join(root,'out');fs.mkdirSync(out,{recursive:true});
+createSound(root);
+const serveUrl=await bundle({entryPoint:path.join(root,'src/index.tsx'),publicDir:path.join(root,'public')});
+const browserExecutable=process.env.REMOTION_BROWSER_EXECUTABLE || undefined;
+const inputProps={sound:!process.argv.includes('--silent')};
+const composition=await selectComposition({serveUrl,id:'MotionStudy',inputProps,browserExecutable});
+const options={serveUrl,composition,inputProps,browserExecutable};
+const frames=[0,60,120,179,180,181,210,255,288,330,479];
+for(const frame of frames) await renderStill({...options,frame,output:path.join(out,`frame-${frame}.png`),imageFormat:'png'});
+// Repeat after nonsequential seeks: same frame should produce the same pixels.
+await renderStill({...options,frame:180,output:path.join(out,'frame-180-repeat.png'),imageFormat:'png'});
+await renderMedia({...options,codec:'h264',pixelFormat:'yuv420p',crf:18,concurrency:2,outputLocation:path.join(out,'motion-study.mp4')});
+fs.writeFileSync(path.join(out,'render.json'),JSON.stringify({id:composition.id,width:composition.width,height:composition.height,fps:composition.fps,durationInFrames:composition.durationInFrames,inputProps,frames},null,2));
+console.log(`Rendered ${path.join(out,'motion-study.mp4')}`);

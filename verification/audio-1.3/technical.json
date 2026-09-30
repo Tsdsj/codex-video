@@ -1,0 +1,170 @@
+[
+  {
+    "id": "soft-tap",
+    "true_peak_dbtp": -8.94,
+    "integrated_lufs": "-inf",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "felt-click",
+    "true_peak_dbtp": -8.96,
+    "integrated_lufs": "-inf",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "toggle-on",
+    "true_peak_dbtp": -8.92,
+    "integrated_lufs": "-inf",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "toggle-off",
+    "true_peak_dbtp": -8.87,
+    "integrated_lufs": "-inf",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "select-double",
+    "true_peak_dbtp": -8.99,
+    "integrated_lufs": "-inf",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "quiet-dismiss",
+    "true_peak_dbtp": -6.9,
+    "integrated_lufs": "-inf",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "air-pass",
+    "true_peak_dbtp": -6.66,
+    "integrated_lufs": "-14.81",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "silk-swipe",
+    "true_peak_dbtp": -6.7,
+    "integrated_lufs": "-17.18",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "quick-cut",
+    "true_peak_dbtp": -6.38,
+    "integrated_lufs": "-inf",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "rise-soft",
+    "true_peak_dbtp": -6.93,
+    "integrated_lufs": "-17.49",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "fall-soft",
+    "true_peak_dbtp": -5.88,
+    "integrated_lufs": "-14.21",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "reverse-bloom",
+    "true_peak_dbtp": -7.0,
+    "integrated_lufs": "-18.15",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "wood-touch",
+    "true_peak_dbtp": -6.95,
+    "integrated_lufs": "-22.05",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "ceramic-touch",
+    "true_peak_dbtp": -7.0,
+    "integrated_lufs": "-20.69",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "glass-tick",
+    "true_peak_dbtp": -6.94,
+    "integrated_lufs": "-18.74",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "metal-soft",
+    "true_peak_dbtp": -6.96,
+    "integrated_lufs": "-22.37",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "paper-settle",
+    "true_peak_dbtp": -6.54,
+    "integrated_lufs": "-17.24",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "cushioned-land",
+    "true_peak_dbtp": -7.0,
+    "integrated_lufs": "-18.75",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "confirm-warm",
+    "true_peak_dbtp": -7.0,
+    "integrated_lufs": "-17.43",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "complete-clear",
+    "true_peak_dbtp": -6.99,
+    "integrated_lufs": "-17.42",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "reveal-spark",
+    "true_peak_dbtp": -7.0,
+    "integrated_lufs": "-16.77",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "resolve-low",
+    "true_peak_dbtp": -7.0,
+    "integrated_lufs": "-19.30",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "soft-attention",
+    "true_peak_dbtp": -7.0,
+    "integrated_lufs": "-17.39",
+    "decode": "passed",
+    "deterministic": "passed"
+  },
+  {
+    "id": "brand-signoff",
+    "true_peak_dbtp": -7.0,
+    "integrated_lufs": "-17.52",
+    "decode": "passed",
+    "deterministic": "passed"
+  }
+]

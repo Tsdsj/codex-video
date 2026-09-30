@@ -1,0 +1,30 @@
+{
+  "name": "motion-director-starter",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.tsx",
+    "check": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test src/motion.test.ts",
+    "render": "node scripts/render.mjs",
+    "prepare-sound": "node scripts/sound.mjs",
+    "prestudio": "npm run prepare-sound"
+  },
+  "dependencies": {
+    "remotion": "4.0.531",
+    "@remotion/cli": "4.0.531",
+    "@remotion/bundler": "4.0.531",
+    "@remotion/renderer": "4.0.531",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.2",
+    "@types/node": "22.15.30",
+    "typescript": "5.8.3"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}

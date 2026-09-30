@@ -1,0 +1,14 @@
+{
+  "name": "motion-director",
+  "version": "1.3.0",
+  "description": "代码驱动的动效视频制作流程：参考拆解、导演 Brief、分镜节拍、运动与声音设计、可复现渲染和逐帧验收。",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "动效视频导演",
+    "shortDescription": "从导演 Brief 到分镜、运动与成片验收",
+    "longDescription": "动效视频导演：Remotion 制作、24 个原创合成音效与 8 个 CC0 候选、事件对齐、本地分轨混音和声画验收。音效无需 API Key 或订阅。",
+    "defaultPrompt": [
+      "用动效视频导演为我的产品设计一支 15 秒短片。"
+    ]
+  }
+}

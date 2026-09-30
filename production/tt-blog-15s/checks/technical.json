@@ -1,0 +1,20 @@
+{
+  "decode_exit_code": 0,
+  "frames": 450,
+  "expected_frames": 450,
+  "duration_seconds": 15,
+  "ffmpeg": "/Users/tt/projects/codex-video/production/tt-blog-15s/.venv/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v7.1",
+  "black_intervals": [],
+  "metadata": [
+    "Duration: 00:00:15.00, start: 0.000000, bitrate: 1743 kb/s",
+    "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1920x1080, 1542 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+    "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 191 kb/s (default)",
+    "Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))",
+    "Stream #0:1 -> #0:1 (aac (native) -> pcm_s16le (native))",
+    "Stream #0:0(und): Video: wrapped_avframe, yuv420p(tv, bt709/unknown/unknown, progressive), 1920x1080, q=2-31, 200 kb/s, 30 fps, 30 tbn (default)",
+    "Stream #0:1(und): Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s (default)",
+    "[Parsed_astats_0 @ 0x10be051e0] Peak level dB: -18.007657",
+    "[Parsed_astats_0 @ 0x10be051e0] Peak level dB: -18.007622",
+    "[Parsed_astats_0 @ 0x10be051e0] Peak level dB: -18.007622"
+  ]
+}

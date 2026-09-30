@@ -1,0 +1,4 @@
+interface:
+  display_name: "动效视频导演"
+  short_description: "分镜与运动设计、Remotion 渲染、免费本地音效混音和声画验收"
+  default_prompt: "用 $motion-director 根据我的产品和参考，整理导演 Brief、分镜与关键画面，并按当前授权阶段推进视频制作。"

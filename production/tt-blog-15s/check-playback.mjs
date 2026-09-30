@@ -1,0 +1,6 @@
+import {chromium} from '/Users/tt/projects/tt-site/node_modules/playwright/index.mjs';
+import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';
+const dir=path.dirname(fileURLToPath(import.meta.url));const b=await chromium.launch({headless:true});const p=await b.newPage({viewport:{width:1440,height:1050}});await p.goto(`file://${dir}/preview.html`);const samples=[];await p.evaluate(async()=>{const v=document.getElementById('v');v.muted=true;await v.play()});
+for(let i=0;i<5;i++){await p.waitForTimeout(3100);samples.push(await p.evaluate(()=>{const v=document.getElementById('v');return {time:v.currentTime,ended:v.ended,error:v.error,readyState:v.readyState,quality:v.getVideoPlaybackQuality().toJSON?.()||{total:v.getVideoPlaybackQuality().totalVideoFrames,dropped:v.getVideoPlaybackQuality().droppedVideoFrames}}}));}
+await p.locator('summary').click();await p.locator('#slider').fill('263');await p.locator('#slider').dispatchEvent('input');await p.locator('#frame').evaluate(im=>im.decode());const slider=await p.locator('#label').textContent();
+fs.writeFileSync(path.join(dir,'checks/playback.json'),JSON.stringify({muted:true,samples,slider},null,2));console.log(JSON.stringify({samples,slider}));await b.close();

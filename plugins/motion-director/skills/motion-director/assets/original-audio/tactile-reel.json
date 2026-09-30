@@ -1,0 +1,26 @@
+[
+  {
+    "id": "wood-touch",
+    "start_seconds": 0.0
+  },
+  {
+    "id": "ceramic-touch",
+    "start_seconds": 0.85
+  },
+  {
+    "id": "glass-tick",
+    "start_seconds": 2.0
+  },
+  {
+    "id": "metal-soft",
+    "start_seconds": 3.6
+  },
+  {
+    "id": "paper-settle",
+    "start_seconds": 4.95
+  },
+  {
+    "id": "cushioned-land",
+    "start_seconds": 6.05
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "fps": 60,
+  "duration_seconds": 8,
+  "master_ceiling_db": -3,
+  "cues": [
+    {
+      "file": "switch_001.ogg",
+      "event_frame": 60,
+      "anchor_seconds": 0.10783333333333334,
+      "gain_db": -19,
+      "role": "sfx",
+      "fade_in_seconds": 0.001,
+      "fade_out_seconds": 0.015
+    },
+    {
+      "file": "drop_001.ogg",
+      "event_frame": 180,
+      "anchor_seconds": 0.0002708333333333333,
+      "gain_db": -16,
+      "role": "sfx",
+      "fade_in_seconds": 0.001,
+      "fade_out_seconds": 0.015
+    },
+    {
+      "file": "confirmation_001.ogg",
+      "event_frame": 288,
+      "anchor_seconds": 0.0006666666666666666,
+      "gain_db": -19,
+      "role": "sfx",
+      "fade_in_seconds": 0.001,
+      "fade_out_seconds": 0.015
+    }
+  ]
+}

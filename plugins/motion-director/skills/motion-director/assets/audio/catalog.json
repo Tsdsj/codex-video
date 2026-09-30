@@ -1,0 +1,109 @@
+{
+  "retrieved": "2026-10-01",
+  "assets": [
+    {
+      "id": "click_001",
+      "file": "click_001.ogg",
+      "suggested_role": "短点击候选",
+      "duration_seconds": 0.097125,
+      "peak_dbfs": -4.440069434409713,
+      "estimated_anchor_seconds": 0.0011458333333333333,
+      "anchor_method": "maximum absolute sample; audition before treating as perceptual onset",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/interface-sounds",
+      "sha256": "ccfb7fa0cccdd9faec0eb16033c732b1e308d139d80f799161495d58f7adcdb9",
+      "listening": "not_verified"
+    },
+    {
+      "id": "confirmation_001",
+      "file": "confirmation_001.ogg",
+      "suggested_role": "完成确认候选",
+      "duration_seconds": 0.2898541666666667,
+      "peak_dbfs": -3.9377237438458375,
+      "estimated_anchor_seconds": 0.0006666666666666666,
+      "anchor_method": "maximum absolute sample; audition before treating as perceptual onset",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/interface-sounds",
+      "sha256": "063564703b6094d70718a3e787a55cc9141611e4ecd6b6637f8828f79b4a8c3a",
+      "listening": "not_verified"
+    },
+    {
+      "id": "drop_001",
+      "file": "drop_001.ogg",
+      "suggested_role": "轻落点候选",
+      "duration_seconds": 0.13208333333333333,
+      "peak_dbfs": -0.8875253673807812,
+      "estimated_anchor_seconds": 0.0002708333333333333,
+      "anchor_method": "maximum absolute sample; audition before treating as perceptual onset",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/interface-sounds",
+      "sha256": "692ee3a6f1821402ca649ff735bee9591dc4846c8098fc7d6a90fd15fa57c1af",
+      "listening": "not_verified"
+    },
+    {
+      "id": "glass_001",
+      "file": "glass_001.ogg",
+      "suggested_role": "玻璃质感候选",
+      "duration_seconds": 0.2755416666666667,
+      "peak_dbfs": -4.074264915147056,
+      "estimated_anchor_seconds": 0.00014583333333333335,
+      "anchor_method": "maximum absolute sample; audition before treating as perceptual onset",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/interface-sounds",
+      "sha256": "183eebee20eb0a532b0b85104d139cbf2673eb66d95c3cc733ac9ea98362e7e8",
+      "listening": "not_verified"
+    },
+    {
+      "id": "open_001",
+      "file": "open_001.ogg",
+      "suggested_role": "展开候选",
+      "duration_seconds": 0.14779166666666665,
+      "peak_dbfs": -3.7358347809229997,
+      "estimated_anchor_seconds": 0.14741666666666667,
+      "anchor_method": "maximum absolute sample; audition before treating as perceptual onset",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/interface-sounds",
+      "sha256": "a27c6bb0df7da1e6af5dd5937593c98bc58b6e513f42fe6a3254cd6a6949c648",
+      "listening": "not_verified"
+    },
+    {
+      "id": "pluck_001",
+      "file": "pluck_001.ogg",
+      "suggested_role": "轻弹拨候选",
+      "duration_seconds": 0.09954166666666667,
+      "peak_dbfs": 0.37392492411325134,
+      "estimated_anchor_seconds": 0.0017708333333333332,
+      "anchor_method": "maximum absolute sample; audition before treating as perceptual onset",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/interface-sounds",
+      "sha256": "be97ec4893a02d6eccfb678daa76c83e34cb2583b834ec2593d2641def739fa4",
+      "listening": "not_verified"
+    },
+    {
+      "id": "scroll_001",
+      "file": "scroll_001.ogg",
+      "suggested_role": "滚动候选",
+      "duration_seconds": 1.0000416666666667,
+      "peak_dbfs": -2.83048371251563,
+      "estimated_anchor_seconds": 8.333333333333333e-05,
+      "anchor_method": "maximum absolute sample; audition before treating as perceptual onset",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/interface-sounds",
+      "sha256": "320c6aafb2c7a503eae508dc443b72d7f7c0a317bfd16813157ed400cd04cf16",
+      "listening": "not_verified"
+    },
+    {
+      "id": "switch_001",
+      "file": "switch_001.ogg",
+      "suggested_role": "切换候选",
+      "duration_seconds": 0.6147708333333334,
+      "peak_dbfs": -1.0274144956075906,
+      "estimated_anchor_seconds": 0.10783333333333334,
+      "anchor_method": "maximum absolute sample; audition before treating as perceptual onset",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/interface-sounds",
+      "sha256": "3b74efad87f1e69dbd1d05c5ad952ab90859b5a3d11da6ec5bd79b4f03b42afa",
+      "listening": "not_verified"
+    }
+  ]
+}

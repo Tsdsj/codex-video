@@ -1,0 +1,45 @@
+{
+  "sample_rate": 48000,
+  "channels": 2,
+  "samples": 384000,
+  "duration_seconds": 8.0,
+  "pre_master_peak": 0.38156265020370483,
+  "master_attenuation_db": 0.0,
+  "measurements": {
+    "input_i": "-25.99",
+    "input_tp": "-8.35",
+    "input_lra": "7.10",
+    "input_thresh": "-37.03"
+  },
+  "events": [
+    {
+      "file": "/Users/tt/projects/codex-video/plugins/motion-director/skills/motion-director/assets/audio/switch_001.ogg",
+      "role": "sfx",
+      "event_frame": 60,
+      "start_sample": 42824,
+      "anchor_sample": 5176,
+      "clipped_head_samples": 0,
+      "clipped_tail_samples": 0
+    },
+    {
+      "file": "/Users/tt/projects/codex-video/plugins/motion-director/skills/motion-director/assets/audio/drop_001.ogg",
+      "role": "sfx",
+      "event_frame": 180,
+      "start_sample": 143987,
+      "anchor_sample": 13,
+      "clipped_head_samples": 0,
+      "clipped_tail_samples": 0
+    },
+    {
+      "file": "/Users/tt/projects/codex-video/plugins/motion-director/skills/motion-director/assets/audio/confirmation_001.ogg",
+      "role": "sfx",
+      "event_frame": 288,
+      "start_sample": 230368,
+      "anchor_sample": 32,
+      "clipped_head_samples": 0,
+      "clipped_tail_samples": 0
+    }
+  ],
+  "warnings": [],
+  "listening": "not_verified"
+}

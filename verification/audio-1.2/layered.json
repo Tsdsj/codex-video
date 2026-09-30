@@ -1,0 +1,52 @@
+{
+  "fps": 60,
+  "duration_seconds": 8,
+  "master_ceiling_db": -3,
+  "cues": [
+    {
+      "file": "/Users/tt/projects/codex-video/plugins/motion-director/skills/motion-director/assets/audio/switch_001.ogg",
+      "event_frame": 60,
+      "anchor_seconds": 0.10783333333333334,
+      "gain_db": -19,
+      "role": "sfx",
+      "fade_in_seconds": 0.001,
+      "fade_out_seconds": 0.015
+    },
+    {
+      "file": "/Users/tt/projects/codex-video/plugins/motion-director/skills/motion-director/assets/audio/drop_001.ogg",
+      "event_frame": 180,
+      "anchor_seconds": 0.0002708333333333333,
+      "gain_db": -18,
+      "role": "sfx",
+      "fade_in_seconds": 0.001,
+      "fade_out_seconds": 0.015
+    },
+    {
+      "file": "/Users/tt/projects/codex-video/plugins/motion-director/skills/motion-director/assets/audio/glass_001.ogg",
+      "event_frame": 180,
+      "anchor_seconds": 0.00014583333333333335,
+      "gain_db": -23,
+      "role": "sfx",
+      "fade_in_seconds": 0.001,
+      "fade_out_seconds": 0.015
+    },
+    {
+      "file": "/Users/tt/projects/codex-video/plugins/motion-director/skills/motion-director/assets/audio/click_001.ogg",
+      "event_frame": 216,
+      "anchor_seconds": 0.0011458333333333333,
+      "gain_db": -24,
+      "role": "sfx",
+      "fade_in_seconds": 0.001,
+      "fade_out_seconds": 0.015
+    },
+    {
+      "file": "/Users/tt/projects/codex-video/plugins/motion-director/skills/motion-director/assets/audio/confirmation_001.ogg",
+      "event_frame": 288,
+      "anchor_seconds": 0.0006666666666666666,
+      "gain_db": -19,
+      "role": "sfx",
+      "fade_in_seconds": 0.001,
+      "fade_out_seconds": 0.015
+    }
+  ]
+}

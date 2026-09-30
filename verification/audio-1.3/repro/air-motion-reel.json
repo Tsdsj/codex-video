@@ -1,0 +1,26 @@
+[
+  {
+    "id": "air-pass",
+    "start_seconds": 0.0
+  },
+  {
+    "id": "silk-swipe",
+    "start_seconds": 1.1
+  },
+  {
+    "id": "quick-cut",
+    "start_seconds": 2.5
+  },
+  {
+    "id": "rise-soft",
+    "start_seconds": 3.2
+  },
+  {
+    "id": "fall-soft",
+    "start_seconds": 4.9
+  },
+  {
+    "id": "reverse-bloom",
+    "start_seconds": 6.45
+  }
+]
